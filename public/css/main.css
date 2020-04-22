@@ -43,6 +43,7 @@ body {
   height: 56px;
   position: fixed;
   box-shadow: 0 1px 0 rgb(0, 0, 0, 0.1);
+  z-index: 9999;
 }
 
 .header .container {
@@ -108,7 +109,7 @@ body {
 }
 
 .stories__item + .stories__item {
-  margin-left: 12px;
+  margin-left: 21px;
 }
 
 .stories__item--active {
